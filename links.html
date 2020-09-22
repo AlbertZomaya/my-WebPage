@@ -25,17 +25,17 @@ w\:* {behavior:url(#default#VML);}
   <o:Author> A Zomaya</o:Author>
   <o:Template>Normal</o:Template>
   <o:LastAuthor>zomaya</o:LastAuthor>
-  <o:Revision>207</o:Revision>
-  <o:TotalTime>217</o:TotalTime>
+  <o:Revision>211</o:Revision>
+  <o:TotalTime>239</o:TotalTime>
   <o:Created>2002-11-19T05:04:00Z</o:Created>
-  <o:LastSaved>2020-09-21T05:59:00Z</o:LastSaved>
+  <o:LastSaved>2020-09-22T14:03:00Z</o:LastSaved>
   <o:Pages>1</o:Pages>
-  <o:Words>50</o:Words>
-  <o:Characters>286</o:Characters>
+  <o:Words>150</o:Words>
+  <o:Characters>861</o:Characters>
   <o:Company> </o:Company>
-  <o:Lines>2</o:Lines>
-  <o:Paragraphs>1</o:Paragraphs>
-  <o:CharactersWithSpaces>335</o:CharactersWithSpaces>
+  <o:Lines>7</o:Lines>
+  <o:Paragraphs>2</o:Paragraphs>
+  <o:CharactersWithSpaces>1009</o:CharactersWithSpaces>
   <o:Version>15.00</o:Version>
  </o:DocumentProperties>
 </xml><![endif]-->
@@ -45,7 +45,7 @@ target="links_files/props008.xml">
 <link rel=colorSchemeMapping href="links_files/colorschememapping.xml">
 <!--[if gte mso 9]><xml>
  <w:WordDocument>
-  <w:Zoom>172</w:Zoom>
+  <w:Zoom>130</w:Zoom>
   <w:SpellingState>Clean</w:SpellingState>
   <w:GrammarState>Clean</w:GrammarState>
   <w:TrackMoves>false</w:TrackMoves>
@@ -250,8 +250,8 @@ target="links_files/props008.xml">
   <w:LsdException Locked="false" QFormat="true" Name="Emphasis"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="Document Map"/>
-  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
-   Name="Plain Text"/>
+  <w:LsdException Locked="false" Priority="99" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Plain Text"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
    Name="E-mail Signature"/>
   <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
@@ -679,11 +679,17 @@ target="links_files/props008.xml">
 @font-face
 	{font-family:"Cambria Math";
 	panose-1:2 4 5 3 5 4 6 3 2 4;
-	mso-font-charset:1;
+	mso-font-charset:0;
 	mso-generic-font-family:roman;
-	mso-font-format:other;
 	mso-font-pitch:variable;
-	mso-font-signature:0 0 0 0 0 0;}
+	mso-font-signature:-536870145 1107305727 0 0 415 0;}
+@font-face
+	{font-family:Calibri;
+	panose-1:2 15 5 2 2 2 4 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:swiss;
+	mso-font-pitch:variable;
+	mso-font-signature:-536870145 1073786111 1 0 415 0;}
 @font-face
 	{font-family:Tahoma;
 	panose-1:2 11 6 4 3 5 4 4 2 4;
@@ -726,6 +732,14 @@ target="links_files/props008.xml">
 	mso-generic-font-family:script;
 	mso-font-pitch:variable;
 	mso-font-signature:647 0 0 0 159 0;}
+@font-face
+	{font-family:LinBiolinumTB;
+	panose-1:0 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-format:other;
+	mso-font-pitch:auto;
+	mso-font-signature:3 0 0 0 1 0;}
  /* Style Definitions */
  p.MsoNormal, li.MsoNormal, div.MsoNormal
 	{mso-style-unhide:no;
@@ -789,6 +803,22 @@ a:visited, span.MsoHyperlinkFollowed
 	color:#551A8B;
 	text-decoration:underline;
 	text-underline:single;}
+p.MsoPlainText, li.MsoPlainText, div.MsoPlainText
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-link:"Plain Text Char";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:11.0pt;
+	mso-bidi-font-size:10.5pt;
+	font-family:"Calibri",sans-serif;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	color:windowtext;
+	mso-fareast-language:EN-US;}
 p
 	{mso-style-noshow:yes;
 	mso-style-priority:99;
@@ -1043,6 +1073,26 @@ span.Title23
 span.Title34
 	{mso-style-name:Title34;
 	mso-style-unhide:no;}
+span.PlainTextChar
+	{mso-style-name:"Plain Text Char";
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-unhide:no;
+	mso-style-locked:yes;
+	mso-style-link:"Plain Text";
+	mso-ansi-font-size:11.0pt;
+	mso-bidi-font-size:10.5pt;
+	font-family:"Calibri",sans-serif;
+	mso-ascii-font-family:Calibri;
+	mso-fareast-font-family:Calibri;
+	mso-fareast-theme-font:minor-latin;
+	mso-hansi-font-family:Calibri;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-fareast-language:EN-US;}
+span.SpellE
+	{mso-style-name:"";
+	mso-spl-e:yes;}
 .MsoChpDefault
 	{mso-style-type:export-only;
 	mso-default-props:yes;
@@ -1206,7 +1256,7 @@ ul
 link="#0000EE" vlink="#551A8B" style='tab-interval:36.0pt' alink="#FF0000">
 <!--[if gte vml 1]><v:background id="_x0000_s1025" o:bwmode="white"
  fillcolor="#ffffe5" o:targetscreensize="1024,768">
- <v:fill angle="-45" focus="50%" type="gradient"/>
+ <v:fill src="links_files/image001.jpg" angle="-45" focus="50%" type="gradient"/>
 </v:background><![endif]-->
 
 <div class=WordSection1>
@@ -1227,7 +1277,7 @@ EN-US'>&nbsp; <o:p></o:p></span></p>
   path-circle;mso-style-textfill-fill-gradientfill-shade-rectfill-pctleft:50.0%;
   mso-style-textfill-fill-gradientfill-shade-rectfill-pcttop:50.0%;mso-style-textfill-fill-gradientfill-shade-rectfill-pctright:
   50.0%;mso-style-textfill-fill-gradientfill-shade-rectfill-pctbottom:50.0%;
-  mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 -1 100000 shade=30000 satm=115000\,50000 \#4F0000 -1 100000 shade=67500 satm=115000\,100000 \#FF0000 -1 100000 shade=100000 satm=115000";
+  mso-style-textfill-fill-gradientfill-stoplist:"0 \#000000 -1 100000 shade=30000 satm=115000\,50000 \#460000 -1 100000 shade=67500 satm=115000\,100000 \#FF0000 -1 100000 shade=100000 satm=115000";
   mso-ansi-language:EN'>A life spent making mistakes is not only more
   honorable, but more useful than a life spent doing nothing.--<span
   style='mso-bidi-font-weight:bold'>George Bernard Shaw</span></span><span
@@ -1274,10 +1324,146 @@ mso-bidi-font-family:Arial;mso-bidi-font-weight:bold'><o:p>&nbsp;</o:p></span></
   dir=LTR></span><i><span style='font-size:16.0pt;font-family:"Book Antiqua",serif;
   color:black;background:#FFFFEA'>IET Book Series on Big Data</span></i><i><span
   style='font-size:16.0pt;font-family:"Book Antiqua",serif'><o:p></o:p></span></i></p>
-  <p class=subtitle style='text-align:justify'><i><span style='font-size:16.0pt;
-  font-family:"Book Antiqua",serif;color:black;background:#FFFFEA'><o:p>&nbsp;</o:p></span></i></p>
-  <p class=subtitle style='text-align:justify'><i><span style='font-size:16.0pt;
-  font-family:"Book Antiqua",serif'><o:p>&nbsp;</o:p></span></i></p>
+  <p class=subtitle style='margin-top:24.0pt;text-align:justify'><b><i
+  style='mso-bidi-font-style:normal'><span style='font-size:24.0pt;font-family:
+  "Book Antiqua",serif;color:#C00000'><o:p>&nbsp;</o:p></span></i></b></p>
+  <p class=subtitle style='margin-top:24.0pt;text-align:justify'><b><i
+  style='mso-bidi-font-style:normal'><span style='font-size:24.0pt;font-family:
+  "Book Antiqua",serif;color:#C00000'>Papers to appear…<o:p></o:p></span></i></b></p>
+  <p class=MsoPlainText style='text-align:justify'><span style='font-size:14.0pt;
+  font-family:"Book Antiqua",serif;color:black;mso-themecolor:text1;mso-style-textoutline-type:
+  none;mso-style-textoutline-outlinestyle-dpiwidth:0pt;mso-style-textoutline-outlinestyle-linecap:
+  flat;mso-style-textoutline-outlinestyle-join:round;mso-style-textoutline-outlinestyle-pctmiterlimit:
+  0%;mso-style-textoutline-outlinestyle-dash:solid;mso-style-textoutline-outlinestyle-align:
+  center;mso-style-textoutline-outlinestyle-compound:simple;mso-effects-shadow-color:
+  black;mso-effects-shadow-themecolor:dark1;mso-effects-shadow-alpha:40.0%;
+  mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:1.5pt;
+  mso-effects-shadow-angledirection:2700000;mso-effects-shadow-align:topleft;
+  mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;mso-effects-shadow-anglekx:
+  0;mso-effects-shadow-angleky:0'>Choi, K.N., Kolamunna, H., Uyanwatta, A.,
+  Thilakarathna, K., <span class=SpellE>Senevirantne</span>, S., Holz, R.,
+  Hassan, M. Zomaya, A.Y., <span class=SpellE><b style='mso-bidi-font-weight:
+  normal'><u>LoRadar</u></b></span><b style='mso-bidi-font-weight:normal'><u>: <span
+  class=SpellE>LoRa</span> Sensor Network Monitoring through Passive Packet
+  Sniffing</u></b>, </span><i><span style='font-size:14.0pt;font-family:"Book Antiqua",serif;
+  color:#C00000;mso-style-textoutline-type:none;mso-style-textoutline-outlinestyle-dpiwidth:
+  0pt;mso-style-textoutline-outlinestyle-linecap:flat;mso-style-textoutline-outlinestyle-join:
+  round;mso-style-textoutline-outlinestyle-pctmiterlimit:0%;mso-style-textoutline-outlinestyle-dash:
+  solid;mso-style-textoutline-outlinestyle-align:center;mso-style-textoutline-outlinestyle-compound:
+  simple;mso-effects-shadow-color:black;mso-effects-shadow-themecolor:dark1;
+  mso-effects-shadow-alpha:40.0%;mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:
+  1.5pt;mso-effects-shadow-angledirection:2700000;mso-effects-shadow-align:
+  topleft;mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;
+  mso-effects-shadow-anglekx:0;mso-effects-shadow-angleky:0;mso-bidi-font-weight:
+  bold'>ACM SIGCOMM Communication Review</span></i><span style='font-size:14.0pt;
+  font-family:"Book Antiqua",serif;color:black;mso-themecolor:text1;mso-style-textoutline-type:
+  none;mso-style-textoutline-outlinestyle-dpiwidth:0pt;mso-style-textoutline-outlinestyle-linecap:
+  flat;mso-style-textoutline-outlinestyle-join:round;mso-style-textoutline-outlinestyle-pctmiterlimit:
+  0%;mso-style-textoutline-outlinestyle-dash:solid;mso-style-textoutline-outlinestyle-align:
+  center;mso-style-textoutline-outlinestyle-compound:simple;mso-effects-shadow-color:
+  black;mso-effects-shadow-themecolor:dark1;mso-effects-shadow-alpha:40.0%;
+  mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:1.5pt;
+  mso-effects-shadow-angledirection:2700000;mso-effects-shadow-align:topleft;
+  mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;mso-effects-shadow-anglekx:
+  0;mso-effects-shadow-angleky:0'>, 2020.<o:p></o:p></span></p>
+  <p class=MsoPlainText style='text-align:justify'><span style='font-size:14.0pt;
+  font-family:"Book Antiqua",serif'><o:p>&nbsp;</o:p></span></p>
+  <p class=MsoNormal style='text-align:justify;mso-layout-grid-align:none;
+  text-autospace:none'><span style='font-size:14.0pt;font-family:"Book Antiqua",serif;
+  mso-bidi-font-family:LinBiolinumTB;color:windowtext;mso-style-textoutline-type:
+  none;mso-style-textoutline-outlinestyle-dpiwidth:0pt;mso-style-textoutline-outlinestyle-linecap:
+  flat;mso-style-textoutline-outlinestyle-join:round;mso-style-textoutline-outlinestyle-pctmiterlimit:
+  0%;mso-style-textoutline-outlinestyle-dash:solid;mso-style-textoutline-outlinestyle-align:
+  center;mso-style-textoutline-outlinestyle-compound:simple;mso-effects-shadow-color:
+  #6E747A;mso-effects-shadow-alpha:43.0%;mso-effects-shadow-dpiradius:3.0pt;
+  mso-effects-shadow-dpidistance:2.0pt;mso-effects-shadow-angledirection:5400000;
+  mso-effects-shadow-align:center;mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:
+  100.0%;mso-effects-shadow-anglekx:0;mso-effects-shadow-angleky:0'>Zhang, S.,
+  Liu, X., Guo, S., Zomaya, A.Y., Wang, J., <b style='mso-bidi-font-weight:
+  normal'><u>Why Queue Up? Fast Parallel Search of RFID Tags for Multiple Users</u></b>,
+  </span><i><span style='font-size:14.0pt;font-family:"Book Antiqua",serif;
+  color:#C00000;mso-style-textoutline-type:none;mso-style-textoutline-outlinestyle-dpiwidth:
+  0pt;mso-style-textoutline-outlinestyle-linecap:flat;mso-style-textoutline-outlinestyle-join:
+  round;mso-style-textoutline-outlinestyle-pctmiterlimit:0%;mso-style-textoutline-outlinestyle-dash:
+  solid;mso-style-textoutline-outlinestyle-align:center;mso-style-textoutline-outlinestyle-compound:
+  simple;mso-effects-shadow-color:#6E747A;mso-effects-shadow-alpha:43.0%;
+  mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:2.0pt;
+  mso-effects-shadow-angledirection:5400000;mso-effects-shadow-align:center;
+  mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;mso-effects-shadow-anglekx:
+  0;mso-effects-shadow-angleky:0;mso-bidi-font-weight:bold'>21<sup>st</sup> ACM
+  International Symposium on Mobile Ad Hoc Networking and Computing (<span
+  class=SpellE>MobiHoc</span> 2020)</span></i><i><span style='font-size:14.0pt;
+  font-family:"Book Antiqua",serif;color:#4F81BD;mso-themecolor:accent1;
+  mso-style-textoutline-type:none;mso-style-textoutline-outlinestyle-dpiwidth:
+  0pt;mso-style-textoutline-outlinestyle-linecap:flat;mso-style-textoutline-outlinestyle-join:
+  round;mso-style-textoutline-outlinestyle-pctmiterlimit:0%;mso-style-textoutline-outlinestyle-dash:
+  solid;mso-style-textoutline-outlinestyle-align:center;mso-style-textoutline-outlinestyle-compound:
+  simple;mso-effects-shadow-color:#6E747A;mso-effects-shadow-alpha:43.0%;
+  mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:2.0pt;
+  mso-effects-shadow-angledirection:5400000;mso-effects-shadow-align:center;
+  mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;mso-effects-shadow-anglekx:
+  0;mso-effects-shadow-angleky:0'>.<o:p></o:p></span></i></p>
+  <p class=subtitle style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+  lang=EN-GB style='font-size:14.0pt;font-family:"Book Antiqua",serif;
+  mso-ansi-language:EN-GB'><o:p>&nbsp;</o:p></span></p>
+  <p class=subtitle style='margin:0cm;margin-bottom:.0001pt;text-align:justify'><span
+  lang=EN-GB style='font-size:14.0pt;font-family:"Book Antiqua",serif;
+  color:black;mso-themecolor:text1;mso-style-textoutline-type:none;mso-style-textoutline-outlinestyle-dpiwidth:
+  0pt;mso-style-textoutline-outlinestyle-linecap:flat;mso-style-textoutline-outlinestyle-join:
+  round;mso-style-textoutline-outlinestyle-pctmiterlimit:0%;mso-style-textoutline-outlinestyle-dash:
+  solid;mso-style-textoutline-outlinestyle-align:center;mso-style-textoutline-outlinestyle-compound:
+  simple;mso-effects-shadow-color:black;mso-effects-shadow-themecolor:dark1;
+  mso-effects-shadow-alpha:40.0%;mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:
+  1.5pt;mso-effects-shadow-angledirection:2700000;mso-effects-shadow-align:
+  topleft;mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;
+  mso-effects-shadow-anglekx:0;mso-effects-shadow-angleky:0;mso-ansi-language:
+  EN-GB'>Zhang, S., Wang, C., </span><span style='font-size:14.0pt;font-family:
+  "Book Antiqua",serif;mso-bidi-font-family:LinBiolinumTB;color:black;
+  mso-themecolor:text1;mso-style-textoutline-type:none;mso-style-textoutline-outlinestyle-dpiwidth:
+  0pt;mso-style-textoutline-outlinestyle-linecap:flat;mso-style-textoutline-outlinestyle-join:
+  round;mso-style-textoutline-outlinestyle-pctmiterlimit:0%;mso-style-textoutline-outlinestyle-dash:
+  solid;mso-style-textoutline-outlinestyle-align:center;mso-style-textoutline-outlinestyle-compound:
+  simple;mso-effects-shadow-color:black;mso-effects-shadow-themecolor:dark1;
+  mso-effects-shadow-alpha:40.0%;mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:
+  1.5pt;mso-effects-shadow-angledirection:2700000;mso-effects-shadow-align:
+  topleft;mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;
+  mso-effects-shadow-anglekx:0;mso-effects-shadow-angleky:0'>Zomaya, A.Y.</span><span
+  lang=EN-GB style='font-size:14.0pt;font-family:"Book Antiqua",serif;
+  color:black;mso-themecolor:text1;mso-style-textoutline-type:none;mso-style-textoutline-outlinestyle-dpiwidth:
+  0pt;mso-style-textoutline-outlinestyle-linecap:flat;mso-style-textoutline-outlinestyle-join:
+  round;mso-style-textoutline-outlinestyle-pctmiterlimit:0%;mso-style-textoutline-outlinestyle-dash:
+  solid;mso-style-textoutline-outlinestyle-align:center;mso-style-textoutline-outlinestyle-compound:
+  simple;mso-effects-shadow-color:black;mso-effects-shadow-themecolor:dark1;
+  mso-effects-shadow-alpha:40.0%;mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:
+  1.5pt;mso-effects-shadow-angledirection:2700000;mso-effects-shadow-align:
+  topleft;mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;
+  mso-effects-shadow-anglekx:0;mso-effects-shadow-angleky:0;mso-ansi-language:
+  EN-GB'>, <b><u>Adversarial Attacks in a Deep Reinforcement<br>
+  Learning based Cloud Scheduler</u></b>, </span><i><span style='font-size:
+  14.0pt;font-family:"Book Antiqua",serif;color:#C00000;mso-style-textoutline-type:
+  none;mso-style-textoutline-outlinestyle-dpiwidth:0pt;mso-style-textoutline-outlinestyle-linecap:
+  flat;mso-style-textoutline-outlinestyle-join:round;mso-style-textoutline-outlinestyle-pctmiterlimit:
+  0%;mso-style-textoutline-outlinestyle-dash:solid;mso-style-textoutline-outlinestyle-align:
+  center;mso-style-textoutline-outlinestyle-compound:simple;mso-effects-shadow-color:
+  black;mso-effects-shadow-themecolor:dark1;mso-effects-shadow-alpha:40.0%;
+  mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:1.5pt;
+  mso-effects-shadow-angledirection:2700000;mso-effects-shadow-align:topleft;
+  mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;mso-effects-shadow-anglekx:
+  0;mso-effects-shadow-angleky:0'>IEEE Symposium on Modelling, Analysis, and
+  Simulation of Computer and Telecommunication Systems</span></i><span
+  style='font-size:14.0pt;font-family:"Book Antiqua",serif;color:black;
+  mso-themecolor:text1;mso-style-textoutline-type:none;mso-style-textoutline-outlinestyle-dpiwidth:
+  0pt;mso-style-textoutline-outlinestyle-linecap:flat;mso-style-textoutline-outlinestyle-join:
+  round;mso-style-textoutline-outlinestyle-pctmiterlimit:0%;mso-style-textoutline-outlinestyle-dash:
+  solid;mso-style-textoutline-outlinestyle-align:center;mso-style-textoutline-outlinestyle-compound:
+  simple;mso-effects-shadow-color:black;mso-effects-shadow-themecolor:dark1;
+  mso-effects-shadow-alpha:40.0%;mso-effects-shadow-dpiradius:3.0pt;mso-effects-shadow-dpidistance:
+  1.5pt;mso-effects-shadow-angledirection:2700000;mso-effects-shadow-align:
+  topleft;mso-effects-shadow-pctsx:100.0%;mso-effects-shadow-pctsy:100.0%;
+  mso-effects-shadow-anglekx:0;mso-effects-shadow-angleky:0'>, 2020.<i><o:p></o:p></i></span></p>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal><o:p>&nbsp;</o:p></p>
+  <p class=MsoNormal style='tab-stops:111.75pt'><o:p>&nbsp;</o:p></p>
   </td>
  </tr>
 </table>
